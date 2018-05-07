@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Girl Develop It! by SG</title>
+</head>
+<body>
+    <!-- Navegacion -->
+    <nav class="container-fluid navbar navbar-light bg-pink navbar-expand">
+        <div class="container">
+            <a href="https://www.girldevelopit.com/" target="_blank" class="navbar-brand d-none d-sm-block sg-brand" >
+
+                <img src="http://www.girldevelopitfargo.com/images/GDI.jpg" alt="GirlDevelopIt_Logo" class="img-thumbnail" >
+            </a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#Locations">Locations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#SignUp">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#Schedule">Schedule</a>
+                </li>
+            </ul>     
+        </div>  
+    </nav>
+    <div class="container">
+        <h1 class="text-center">Girl Develop It</h1>
+        <!-- Primera sección: About -->
+        <h2 id="About">About</h2>
+        <p>
+        It can be intimidating for women to learn and ask questions when they are in an <strong>extreme minority.</strong> While opn and welcoming, today's budding developer community is up to <strong>91% male.</strong> If we can empower more females with the confidence in their technological capabilities <em>we can begin to change this</em>
+        </p>
+        <hr>
+        <div class="row">
+            <div class="col-md">
+                <!-- Segunda sección: Our Locations -->
+                <h2 id="Locations">Our Locations</h2>
+                <ul>
+                    <li>
+                        USA
+                        <ul>
+                            <li><a href="https://www.girldevelopit.com/chapters/new-york" target="_blank">New York</a></li>
+                            <li><a href="https://www.girldevelopit.com/chapters/columbus" target="_blank">Columbus</a></li>
+                            <li><a href="https://www.girldevelopit.com/chapters/austin" target="_blank">Austin</a></li>
+                            <li><a href="https://www.girldevelopit.com/chapters/philadelphia" target="_blank">Philly</a></li>
+
+                        </ul>
+                    </li>
+                    <li>
+                        World
+                        <ul>
+                            <li><a href="https://www.girldevelopit.com/chapters/ottawa" target="_blank">Ottawa</a></li>
+                            <li><a href="#" target="_blank">Sydney</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <!-- Cuarta sección: Sign Up -->
+                <h2 id="#SignUp">Sign Up!</h2>
+                <form>
+                    <div class="form-group row">
+                        <label for="staticName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="staticName" value="Juan Pérez">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticName" class="col-sm-2 col-form-label">Name</label>
+                        <div class="col-sm-10">
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Male
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Female
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <label class="form-check-label">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Choose not to disclose
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="staticEmail" value="email@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticLocation" class="col-sm-2 col-form-label">Location</label>
+                        <div class="col-sm-10">
+                            <select id="inputState" class="form-control">
+                                <option selected>San Francisco</option>
+                                <option selected>New York</option>
+                                <option selected>Columbus</option>
+                                <option selected>Austin</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="staticExp" class="col-sm-2 col-form-label">Experience</label>
+                        <div class="col-sm-10 ">
+                            <textarea name="text" id="staticExp" class="form-control"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary float-right">Sign Up!</button>
+                </form>
+            </div>
+        </div>
+        <hr>
+         <!-- Tercera sección: Upcoming Classes -->
+         <h2 id="Schedule">Upcoming Classes</h2>
+         <table class="table table-striped table-sm">
+             <thead>
+                 <tr>
+                     <th scope="col">Location</th>
+                     <th scope="col">Topic</th>
+                 </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td scope="row">New York</td>
+                     <td>Javascript &amp; Jquery</td>
+                 </tr>
+                 <tr>
+                     <td scope="row">San Francisco</td>
+                     <td>HTML &amp; CSS</td>
+                 </tr>
+                 <tr>
+                     <td scope="row">Austin</td>
+                     <td>Flexbox and CSS Grid</td>
+                 </tr>
+                 <tr>
+                     <td scope="row">Chicago</td>
+                     <td>CSS Custom Properties</td>
+                 </tr>
+                 <tr>
+                     <td scope="row">Los Angeles</td>
+                     <td>Inclusive code</td>
+                 </tr>
+                 <tr>
+                     <td scope="row">Los Angeles</td>
+                     <td>HTML5 Semantic</td>
+                 </tr>
+             </tbody>
+         </table>
+        <!-- Footer -->
+        <footer class="text-center bg-pink">
+            <div class="bg-white">
+                <a href="#">Twitter</a> | <a href="#">Facebook</a> | <a href="#">Flickr</a> 
+            </div>
+        </footer>
+    </div>
+    <div class="container-fluid bg-pink">
+        <div class="container text-center text-light">
+            Sergio G. Diosdado&copy;
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
